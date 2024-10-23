@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "870999189359",
+    "project_id": "pokedata-e95ca",
+    "storage_bucket": "pokedata-e95ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870999189359:android:93ca3d2601029681212a9a",
+        "android_client_info": {
+          "package_name": "com.example.pokedata"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgFkQ7eM3rg8v3iO9fTCQIiIMRlKk7OaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

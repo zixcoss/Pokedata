@@ -1,0 +1,145 @@
+[{
+        "english": "Normal",
+        "chinese": "一般",
+        "japanese": "ノーマル",
+        "effective": [],
+        "ineffective": ["Fighting"],
+        "no_effect": ["Ghost"]
+    },
+    {
+        "english": "Fighting",
+        "chinese": "格斗",
+        "japanese": "かくとう",
+        "effective": ["Normal", "Ice", "Rock", "Dark", "Steel"],
+        "ineffective": [ "Flying", "Psychic", "Fairy"],
+        "no_effect": ["Ghost"]
+    },
+    {
+        "english": "Flying",
+        "chinese": "飞行",
+        "japanese": "ひこう",
+        "effective": ["Grass", "Fighting", "Bug"],
+        "ineffective": ["Electric","Ice", "Rock"],
+        "no_effect": ["Ground"]
+    },
+    {
+        "english": "Poison",
+        "chinese": "毒",
+        "japanese": "どく",
+        "effective": ["Grass", "Fairy","Bug"],
+        "ineffective": ["Ground","Psychic"],
+        "no_effect": ["Poison"]
+    },
+    {
+        "english": "Ground",
+        "chinese": "地上",
+        "japanese": "じめん",
+        "effective": ["Fire", "Electric", "Poison", "Rock", "Steel"],
+        "ineffective": ["Grass","Water","Ice"],
+        "no_effect": ["Electric"]
+    },
+    {
+        "english": "Rock",
+        "chinese": "岩石",
+        "japanese": "いわ",
+        "effective": ["Fire", "Ice", "Flying", "Bug"],
+        "ineffective": ["Fighting","Water", "Ground","Grass", "Steel"],
+        "no_effect": []
+    },
+    {
+        "english": "Bug",
+        "chinese": "虫",
+        "japanese": "むし",
+        "effective": ["Grass", "Psychic", "Dark"],
+        "ineffective": ["Fire","Rock", "Flying"],
+        "no_effect": []
+    },
+    {
+        "english": "Ghost",
+        "chinese": "幽灵",
+        "japanese": "ゴースト",
+        "effective": ["Psychic", "Ghost"],
+        "ineffective": ["Dark","Ghost"],
+        "no_effect": ["Normal"]
+    },
+    {
+        "english": "Steel",
+        "chinese": "钢",
+        "japanese": "はがね",
+        "effective": ["Ice", "Rock", "Fairy"],
+        "ineffective": ["Fire", "Fighting", "Ground"],
+        "no_effect": ["Poison"]
+    },
+    {
+        "english": "Fire",
+        "chinese": "炎",
+        "japanese": "ほのお",
+        "effective": ["Grass", "Ice", "Bug", "Steel"],
+        "ineffective": [ "Water", "Rock", "Ground"],
+        "no_effect": []
+    },
+    {
+        "english": "Water",
+        "chinese": "水",
+        "japanese": "みず",
+        "effective": ["Fire", "Ground", "Rock"],
+        "ineffective": ["Electric", "Grass"],
+        "no_effect": []
+    },
+    {
+        "english": "Grass",
+        "chinese": "草",
+        "japanese": "くさ",
+        "effective": ["Water", "Ground", "Rock"],
+        "ineffective": ["Fire", "Ice", "Poison", "Flying", "Bug"],
+        "no_effect": []
+    },
+    {
+        "english": "Electric",
+        "chinese": "电",
+        "japanese": "でんき",
+        "effective": ["Water", "Flying"],
+        "ineffective": ["Ground"],
+        "no_effect": ["Ground"]
+    },
+    {
+        "english": "Psychic",
+        "chinese": "超能",
+        "japanese": "エスパー",
+        "effective": ["Fighting", "Poison"],
+        "ineffective": ["Bug", "Ghost","Dark"],
+        "no_effect": ["Dark","Electric"]
+    },
+    {
+        "english": "Ice",
+        "chinese": "冰",
+        "japanese": "こおり",
+        "effective": ["Grass", "Ground", "Flying", "Dragon"],
+        "ineffective": ["Fire", "Fighting", "Rock", "Steel"],
+        "no_effect": []
+    },
+    {
+        "english": "Dragon",
+        "chinese": "龙",
+        "japanese": "ドラゴン",
+        "effective": ["Dragon"],
+        "ineffective": ["Ice","Dragon","Fairy"],
+        "no_effect": ["Fairy"]
+    },
+    {
+        "english": "Dark",
+        "chinese": "恶",
+        "japanese": "あく",
+        "effective": ["Psychic", "Ghost"],
+        "ineffective": ["Fighting", "Bug", "Fairy"],
+        "no_effect": []
+    },
+    {
+        "english": "Fairy",
+        "chinese": "妖精",
+        "japanese": "フェアリー",
+        "effective": ["Fighting", "Dragon", "Dark"],
+        "ineffective": [ "Poison", "Steel"],
+        "no_effect": []
+    }
+]
